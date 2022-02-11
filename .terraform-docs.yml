@@ -6,7 +6,7 @@ header-from: main.tf
 
 output:
   file: "README.md"
-  mode: inject
+  mode: replace
 
 sort:
   enabled: true
