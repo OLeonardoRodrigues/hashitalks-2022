@@ -1,0 +1,24 @@
+formatter: "markdown" # this is required
+
+version: ">= 0.13.0"
+
+header-from: main.tf
+
+output:
+  file: "README.md"
+  mode: inject
+
+sort:
+  enabled: true
+  by: name
+
+settings:
+  anchor: true
+  default: true
+  escape: true
+  hide-empty: true
+  indent: 2
+  lockfile: true
+  read-comments: true
+  required: true
+  type: true
