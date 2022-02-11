@@ -14,10 +14,9 @@ provider "aws" {
 }
 
 module "vpc" {
-  source = "../../"
+  source   = "../../"
 
-  name = "basic-example"
-  cidr = "10.0.0.0/16"
+  name     = "basic-example"
 
   subnets  = ["10.0.101.0/24", "10.0.102.0/24", "10.0.103.0/24"]
 
